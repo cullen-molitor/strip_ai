@@ -1,0 +1,36 @@
+name: mosaiks-env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8*
+  - pip=20
+  - jupyterlab
+  - jupyterlab-geojson
+  - jupyter-resource-usage
+  - ipywidgets
+  - lz4
+  - matplotlib-base
+  - nb_conda_kernels
+  - numcodecs
+  - numpy
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - cupy
+  - efficientnet-pytorch
+  - pytorch
+  - pytorch-lightning
+  - segmentation-models-pytorch
+  - torchvision=0.11.3
+  - rasterio
+  - statsmodels
+  - pyprojroot 
+  - tifffile
+  - imutils
+  - pip:
+    - -r requirements.txt
+
